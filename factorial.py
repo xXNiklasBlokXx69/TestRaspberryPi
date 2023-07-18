@@ -12,6 +12,8 @@ def div(n):
 def main(n):
     res = fact(n)
     print(res)
+    res = div(n+1)
+    print(res)
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
